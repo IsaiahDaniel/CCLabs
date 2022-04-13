@@ -1,9 +1,9 @@
 <img src="images/logo.png" width=25% height=25%>
 
-# Welcome to Stelligent U
+# Welcome to Compudemy
 
-Welcome to the technical side of Stelligent University,
-[Stelligent's](https://stelligent.com) onboarding program for engineers. This
+Welcome to the practical Cloud Computing Labs of Compudemy,
+[Compudemy's](https://compudemy.org) test and assessment program for cloud computing engineers. This
 repo includes a series of learning modules designed to give cloud engineers
 practical experience working with AWS and related technologies.
 
