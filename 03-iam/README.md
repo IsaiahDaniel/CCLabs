@@ -77,7 +77,8 @@ of users, groups and permissions, but not necessarily those precise
 
 #### Lab 3.1.1: IAM Role
 
-Create a CFN template that specifies an IAM Role.
+#### DEMO:
+#Create a CFN template that specifies an IAM Role.
 
 - Provide values only for required attributes.
 
