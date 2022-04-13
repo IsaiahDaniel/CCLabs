@@ -126,8 +126,12 @@ aws s3 ls s3://mybucket
 **Preparing Your AWS S3 Access**
 - Creating an IAM User with S3 Access Permission
 When accessing AWS using the CLI, you will need to create one or more IAM users with enough access to the resources you intend to work with. In this section, you will create an IAM user with access to Amazon S3.
-- To create an IAM user with access to Amazon S3, you first need to login to your AWS IAM console. Under the Access management group, click on Users. Next, click on Add user, see link attached.https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled.png
-- Type in the IAM user’s name you are creating inside the User name* box such as s3Admin. In the Access type* selection, put a check on Programmatic access. Then, click the Next: Permissions button https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled-1.png
+- To create an IAM user with access to Amazon S3, you first need to login to your AWS IAM console. Under the Access management group, click on Users. Next, click on Add user, see link attached.
+![image](https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled.png)
+
+- Type in the IAM user’s name you are creating inside the User name* box such as s3Admin. In the Access type* selection, put a check on Programmatic access. Then, click the Next: Permissions button
+ 
+![image](https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled-1.png)
 - Next, click on Attach existing policies directly. Then, search for the AmazonS3FullAccess policy name and put a check on it. When done, click on Next: Tags.
 
 ![image](https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled-2.png)
@@ -135,7 +139,9 @@ When accessing AWS using the CLI, you will need to create one or more IAM users 
 - Creating tags is optional in the Add tags page, and you can just skip this and click on the Next: Review button.
 - In the Review page, you are presented with a summary of the new account being created. Click Create user.
 ![image](https://user-images.githubusercontent.com/103466963/163221665-ab698af0-da70-46cc-8e39-620de0b8262c.png)
-- Finally, once the user is created, you must copy the Access key ID and the Secret access key values and save them for later user. Note that this is the only time that you can see these values https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled-5.png
+- Finally, once the user is created, you must copy the Access key ID and the Secret access key values and save them for later user. Note that this is the only time that you can see these values
+
+![image](https://adamtheautomator.com/wp-content/uploads/2020/07/Untitled-5.png)
  **Setting Up an AWS Profile On Your Computer**
 Now that you’ve created the IAM user with the appropriate access to Amazon S3, the next step is to set up the AWS CLI profile on your computer.
 
