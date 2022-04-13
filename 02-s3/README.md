@@ -90,18 +90,35 @@ This section gets you familiar with the basic characteristics of S3
 buckets and objects, and how you can interact with them from the command
 line.
 
-You created S3 buckets with CloudFormation in the [first lesson](https://drive.google.com/open?id=10Y8lCLTi-gg_R4PV9hEBCVPTmsOwem60nRtr8zq1264)
-in this series. In this practice session, we'll get familiar with the
+ In this practice session, we'll get familiar with the
 [awscli's s3 command](https://docs.aws.amazon.com/cli/latest/reference/s3/).
 
 #### Lab 2.1.1: Create a Bucket
-
-S3 buckets are located in regions, but their names are globally unique.
-Using "aws s3", create a bucket:
-
+**Note**
 - Use the us-west-2 region.
 
 - Call the bucket "stelligent-u-_your-AWS-username_".
+
+S3 buckets are located in regions, but their names are globally unique.
+Using "aws s3", create a bucket:
+- First, you need to create an Amazon S3 bucket where you will store your objects.
+
+- Sign in to the AWS Management Console.
+- Select S3 service
+- From the Amazon S3 console dashboard, choose Create Bucket.
+- In Create a Bucket, type a bucket name in Bucket Name.
+The bucket name you choose must be globally unique across all existing bucket names in Amazon S3 (that is, across all AWS customers). For more information, see Bucket Restrictions and Limitations.
+- Choose Create, When Amazon S3 successfully creates your bucket, the console displays your empty bucket in the Buckets pane.
+
+
+
+
+
+
+
+
+
+-
 
 - List the contents of the bucket.
 
