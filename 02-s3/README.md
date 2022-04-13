@@ -97,7 +97,7 @@ line.
 **Note**
 - Use the us-west-2 region.
 
-- Call the bucket "stelligent-u-_your-AWS-username_".
+- Call the bucket "compudemy-_your-AWS-username_".
 
 S3 buckets are located in regions, but their names are globally unique.
 Using "aws s3", create a bucket:
