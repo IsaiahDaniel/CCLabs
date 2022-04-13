@@ -146,6 +146,12 @@ blocks as follows:
 resource "aws_instance" "my_instance" {
   instance_type = "t2.micro"
   ami           = "ami-1234567890"
+   
+  Tags {
+    Name = "my_ec2_server"
+  }
+  
+  
 }
 ```
 
