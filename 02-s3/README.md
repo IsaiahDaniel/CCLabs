@@ -106,10 +106,11 @@ Using "aws s3", create a bucket:
 - Sign in to the AWS Management Console.
 - Select S3 service
 - From the Amazon S3 console dashboard, choose Create Bucket.
+https://cloudkatha.com/ezoimgfmt/i0.wp.com/cloudkatha.com/wp-content/uploads/2021/02/How-to-Create-an-S3-Bucket-3.jpg?w=1084&ssl=1&ezimgfmt=ng:webp/ngcb1
+
 - In Create a Bucket, type a bucket name in Bucket Name.
 The bucket name you choose must be globally unique across all existing bucket names in Amazon S3 (that is, across all AWS customers). For more information, see Bucket Restrictions and Limitations.
 - Choose Create, When Amazon S3 successfully creates your bucket, the console displays your empty bucket in the Buckets pane.
-https://cloudkatha.com/ezoimgfmt/i0.wp.com/cloudkatha.com/wp-content/uploads/2021/02/How-to-Create-an-S3-Bucket-3.jpg?w=1084&ssl=1&ezimgfmt=ng:webp/ngcb1
 
 
 
