@@ -118,9 +118,9 @@ The bucket name you choose must be globally unique across all existing bucket na
 
 
 
-- List the contents of the bucket. To List the contents of your bucket, open the command line and type in the command below, replace my bucket with the name you used when creating your bucket
+- List the contents of the bucket. To List the contents of your bucket, open the command line and type in the command below, replace my bucket with the name you used when creating your bucket 
 
-**aws s3 ls s3://mybucket**
+**aws s3 ls s3://compudemy-_your-AWS-username_**
 
 #### Lab 2.1.2: Upload Objects to a Bucket
 **Preparing Your AWS S3 Access**
@@ -159,15 +159,19 @@ Enter the Access key ID, Secret access key, Default region name, and default out
 When you upload files to S3, you can upload one file at a time, or by uploading multiple files and folders recursively. Depending on your requirements, you may choose one over the other that you deem appropriate.
 To upload a file to S3, you’ll need to provide two arguments (source and destination) to the aws s3 cp command.
 
-For example, to upload the file c:\sync\logs\log1.xml to the root of the atasync1 bucket, you can use the command below.
+For example, to upload the file c:\data.pdf to the compudemy-_your-AWS-username_ bucket, you can use the command below.
 
-**aws s3 cp c:\sync\logs\log1.xml s3://atasync1/** It gives you an ouput similar to the one below
+**aws s3 cp c:\data.pdf s3://compudemy-_your-AWS-username_/** It gives you an ouput similar to the one below
 
 ![image](https://adamtheautomator.com/wp-content/uploads/2020/07/upload-single-file.gif)
+
 Note: S3 bucket names are always prefixed with S3:// when used with AWS CLI
 
 Run the above command in PowerShell, but change the source and destination that fits your environment first. The output should look similar to the demonstration below.
 - List the contents of the bucket after each upload.
+Use the command below to list the objects at the root of the S3 bucket.
+**aws s3 ls s3://compudemy-_your-AWS-username_/**
+This command will list the contents of your S3 bucket
 
 ##### Question: Copying to Top Level
 
