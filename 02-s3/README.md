@@ -117,11 +117,8 @@ The bucket name you choose must be globally unique across all existing bucket na
 
 
 
-
-
--
-
-- List the contents of the bucket.
+- List the contents of the bucket. To List the contents of your bucket, open the command line and type in the command, replace my bucket with the name you used when creating your bucket
+aws s3 ls s3://mybucket
 
 #### Lab 2.1.2: Upload Objects to a Bucket
 
